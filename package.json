@@ -1,0 +1,28 @@
+{
+  "name": "timeline",
+  "version": "0.0.1",
+  "description": "timeline global with RethinkDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doomsterinc/globalTimelineRethinkDB.git"
+  },
+  "keywords": [
+    "nodeJS",
+    "RethinkDB"
+  ],
+  "author": "Maicon Giovani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doomsterinc/globalTimelineRethinkDB/issues"
+  },
+  "homepage": "https://github.com/doomsterinc/globalTimelineRethinkDB#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "rethinkdb": "^2.3.2",
+    "socket.io": "^1.4.8"
+  }
+}
